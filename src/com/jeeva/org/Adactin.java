@@ -14,8 +14,7 @@ public class Adactin {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("WebDriver.chrome.driver",
-				"C:\\Users\\ELCOT\\eclipse-workspace\\Auto\\Driver\\chromedriver.exe");
+		System.setProperty("WebDriver.chrome.driver", "C:\\Users\\ELCOT\\eclipse-workspace\\Auto\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://adactinhotelapp.com/index.php");
 
